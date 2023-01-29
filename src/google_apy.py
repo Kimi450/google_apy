@@ -48,7 +48,7 @@ def photos_media_items():
     """
     Wrapper to get all photos media items info
     """
-    client_secrets_file = get_sensitive_file_path("./client_secrets.json")
+    client_secrets_file = get_sensitive_file_path("client_secrets.json")
     authorised_creds_file = get_sensitive_file_path("authorised_creds_photoslibrary.json")
     creds = authorization_flow.get_creds(
         client_secrets_file=client_secrets_file,
@@ -106,7 +106,7 @@ def drive_files():
     """
     Wrapper to get all drive files info
     """
-    client_secrets_file = get_sensitive_file_path("./client_secrets.json")
+    client_secrets_file = get_sensitive_file_path("client_secrets.json")
     authorised_creds_file = get_sensitive_file_path("authorised_creds_drive.json")
     creds = authorization_flow.get_creds(
         client_secrets_file=client_secrets_file,
