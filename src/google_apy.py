@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import authorization_flow
 
 from utils import *

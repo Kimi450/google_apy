@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import datetime, os
 
 from utils import timestamp_prefix
